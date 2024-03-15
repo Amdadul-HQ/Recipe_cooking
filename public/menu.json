@@ -1,0 +1,57 @@
+[
+    {
+      "recipe_id": "1",
+      "recipe_name": "Grilled Chicken Salad",
+      "short_description": "A refreshing salad with grilled chicken, fresh vegetables, and a zesty dressing.",
+      "ingredients": ["400g chicken breast", "1 head lettuce", "2 tomatoes"],
+      "preparing_time": "20 min",
+      "calories": "350 calories",
+      "recipe_image": "grilled_chicken_salad.jpg"
+    },
+    {
+      "recipe_id": "2",
+      "recipe_name": "Vegetable Stir Fry",
+      "short_description": "A quick and healthy stir fry with assorted vegetables and tofu.",
+      "ingredients": ["200g tofu", "1 red bell pepper", "1 yellow bell pepper"],
+      "preparing_time": "25 min",
+      "calories": "250 calories",
+      "recipe_image": "vegetable_stir_fry.jpg"
+    },
+    {
+      "recipe_id": "3",
+      "recipe_name": "Spaghetti Carbonara",
+      "short_description": "Classic Italian pasta dish with creamy sauce, crispy bacon, and parmesan cheese.",
+      "ingredients": ["300g spaghetti", "150g bacon", "3 eggs"],
+      "preparing_time": "30 min",
+      "calories": "450 calories",
+      "recipe_image": "spaghetti_carbonara.jpg"
+    },
+    {
+      "recipe_id": "4",
+      "recipe_name": "Mushroom Risotto",
+      "short_description": "Creamy risotto cooked with mushrooms, garlic, and parmesan cheese.",
+      "ingredients": ["1 cup Arborio rice", "200g mushrooms", "1 onion"],
+      "preparing_time": "35 min",
+      "calories": "380 calories",
+      "recipe_image": "mushroom_risotto.jpg"
+    },
+    {
+      "recipe_id": "5",
+      "recipe_name": "Honey Garlic Salmon",
+      "short_description": "Deliciously glazed salmon fillets cooked with honey, garlic, and soy sauce.",
+      "ingredients": ["4 salmon fillets", "1/4 cup honey", "3 cloves garlic"],
+      "preparing_time": "25 min",
+      "calories": "300 calories",
+      "recipe_image": "honey_garlic_salmon.jpg"
+    },
+    {
+      "recipe_id": "6",
+      "recipe_name": "Quinoa Salad",
+      "short_description": "Nutritious salad with quinoa, mixed greens, veggies, and a tangy dressing.",
+      "ingredients": ["1 cup quinoa", "2 cups water", "1 red bell pepper"],
+      "preparing_time": "20 min",
+      "calories": "320 calories",
+      "recipe_image": "quinoa_salad.jpg"
+    }
+  ]
+  
