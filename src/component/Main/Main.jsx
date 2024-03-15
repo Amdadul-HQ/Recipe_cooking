@@ -8,6 +8,8 @@ const Main = () => {
     const [recipes,setRecipes] = useState([]);
     const [wantCook,setWantCook] = useState([]);
     const [cooking,setCooking] = useState([]);
+    const [totalTime,setTotalTime] = useState(0);
+    const [totalCalorise,setTotalCalorise] = useState(0);
 
 
     const handelWantToCook = (recipe) => {
@@ -20,10 +22,12 @@ const Main = () => {
     const handelPreparing = (item) =>{
 
         const remaningWantCook = wantCook.filter( recipe => recipe.recipe_id !== item.recipe_id)
+        
+        setTotalTime(totalTime + item.preparing_time)
+        setTotalCalorise(totalCalorise + item.calories)
         setWantCook(remaningWantCook)
-
-            // console.log(item);
         setCooking([...cooking,item])
+
     }
 
 
@@ -53,10 +57,10 @@ const Main = () => {
                         <hr  />
                         <table className='text-center space-y-4 w-full mt-6'>
                             <tr>
-                                <th className='px-4'></th>
-                                <th className='px-8'>Name</th>
-                                <th className='px-8'>Time</th>
-                                <th className='px-8'>Calories</th>
+                                <th className=''></th>
+                                <th className=''>Name</th>
+                                <th className=''>Time</th>
+                                <th className=''>Calories</th>
                             </tr>
                             {
                                 wantCook.map( (item,index) => {
@@ -64,8 +68,8 @@ const Main = () => {
                                         <tr className='bg-[rgba(40,40,40,0.03)]' key={item.recipe_id}>
                                             <td className='py-5 px-2'>{index + 1}</td>
                                             <td className='py-5 px-2'>{item.recipe_name}</td>
-                                            <td className='py-5 px-2'>{item.preparing_time}</td>
-                                            <td className='py-5 px-2'>{item.calories}</td>
+                                            <td className='py-5 px-2'>{item.preparing_time} min</td>
+                                            <td className='py-5 px-2'>{item.calories} calories</td>
                                             <td className='py-5 px-2'><button onClick={ () => handelPreparing (item)} className='text-base text-[rgb(21,11,43)] font-semibold py-2 px-4 bg-[rgb(11,229,138)] rounded-[50px]'>Preparing</button></td>
                                         </tr>
                                     )
@@ -73,14 +77,14 @@ const Main = () => {
                             }
                         </table>
                         <div className='pb-10 w-full'>
-                            <h1 className='text-2xl text-[rgb(40,40,40)] font-semibold  pt-8 pb-4 text-center'>Currently cooking: 02</h1>
+                            <h1 className='text-2xl text-[rgb(40,40,40)] font-semibold  pt-8 pb-4 text-center'>Currently cooking: {cooking.length}</h1>
                             <hr />
                             <table className='text-center w-full space-y-4 mt-6'>
                                 <tr>
-                                    <th className='px-4'></th>
-                                    <th className='px-8'>Name</th>
-                                    <th className='px-8'>Time</th>
-                                    <th className='px-8'>Calories</th>
+                                    <th className=''></th>
+                                    <th className=''>Name</th>
+                                    <th className=''>Time</th>
+                                    <th className=''>Calories</th>
                                 </tr>
                                 {
                                     cooking.map( (item ,index) => {
@@ -88,13 +92,17 @@ const Main = () => {
                                             <tr className='bg-[rgba(40,40,40,0.03)] w-full' key={item.recipe_id}>
                                                  <td className='py-5'>{index + 1}</td>
                                                  <td className='py-5'>{item.recipe_name}</td>
-                                                 <td className='py-5'>{item.preparing_time}</td>
-                                                 <td className='py-5'>{item.calories}</td>
+                                                 <td className='py-5'>{item.preparing_time} min</td>
+                                                 <td className='py-5'>{item.calories} calories</td>
                                             </tr>
                                         )
                                     } )
                                 }
                             </table>
+                        </div>
+                        <div>
+                        <h1>Total Time ={totalTime} min</h1>
+                        <h1>Total Calories = {totalCalorise} calories</h1>
                         </div>
                     </div>
                 </div>

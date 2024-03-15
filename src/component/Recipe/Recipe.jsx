@@ -22,8 +22,8 @@ const Recipe = ({recipe,handelWantToCook}) => {
             </ul>
             <hr />
             <div className="flex items-center text-xl font-normal text-[rgba(40,40,40,0.8)] gap-x-8 mt-4">
-                <p className="flex gap-x-3 items-center"><span><IoTimeOutline></IoTimeOutline></span>{preparing_time}</p>
-                <p className="flex gap-x-3 items-center"><span><RiFireLine></RiFireLine></span>{calories}</p>
+                <p className="flex gap-x-3 items-center"><span><IoTimeOutline></IoTimeOutline></span>{preparing_time} min</p>
+                <p className="flex gap-x-3 items-center"><span><RiFireLine></RiFireLine></span>{calories} calories</p>
             </div>
             <button onClick={ () => handelWantToCook(recipe)} className="bg-[rgb(11,229,138)] px-6 py-3 rounded-[50px] text-[rgb(21,11,43)] text-lg font-medium mt-4">Want to Cook</button>
         </div>
