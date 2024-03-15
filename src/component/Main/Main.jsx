@@ -70,7 +70,7 @@ const Main = () => {
                                             <td className='py-5 px-2'>{item.recipe_name}</td>
                                             <td className='py-5 px-2'>{item.preparing_time} min</td>
                                             <td className='py-5 px-2'>{item.calories} calories</td>
-                                            <td className='py-5 px-2'><button onClick={ () => handelPreparing (item)} className='text-base text-[rgb(21,11,43)] font-semibold py-2 px-4 bg-[rgb(11,229,138)] rounded-[50px]'>Preparing</button></td>
+                                            <td className='py-5 px-2'><button onClick={ () => handelPreparing (item)} className='text-base text-[rgb(21,11,43)] font-semibold py-2 px-4 bg-[rgb(11,229,138)] hover:bg-[rgb(49,182,127)]  rounded-[50px]'>Preparing</button></td>
                                         </tr>
                                     )
                                 })

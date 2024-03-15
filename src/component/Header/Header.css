@@ -1,0 +1,14 @@
+.bg{
+    background-image: url('../../assets/background_img.png');
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* `bg-[url(${backgroundbanner})] w-full lg:h-[600px] space-y-6 bg-no-repeat bg-cover bg-center lg:rounded-none rounded-2xl flex flex-col justify-center items-center text-center` */
