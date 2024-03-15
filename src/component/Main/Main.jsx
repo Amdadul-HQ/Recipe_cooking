@@ -65,8 +65,8 @@ const Main = () => {
                             {
                                 wantCook.map( (item,index) => {
                                     return(
-                                        <tr className='bg-[rgba(40,40,40,0.03)]' key={item.recipe_id}>
-                                            <td className='py-5 px-2'>{index + 1}</td>
+                                        <tr className='bg-[rgba(40,40,40,0.03)] text-[rgba(40,40,40,0.7)] text-base font-normal' key={item.recipe_id}>
+                                            <td className='py-5 pl-4'>{index + 1}</td>
                                             <td className='py-5 px-2'>{item.recipe_name}</td>
                                             <td className='py-5 px-2'>{item.preparing_time} min</td>
                                             <td className='py-5 px-2'>{item.calories} calories</td>
@@ -81,16 +81,16 @@ const Main = () => {
                             <hr />
                             <table className='text-center w-full space-y-4 mt-6'>
                                 <tr>
-                                    <th className=''></th>
-                                    <th className=''>Name</th>
-                                    <th className=''>Time</th>
-                                    <th className=''>Calories</th>
+                                    <th></th>
+                                    <th>Name</th>
+                                    <th>Time</th>
+                                    <th>Calories</th>
                                 </tr>
                                 {
                                     cooking.map( (item ,index) => {
                                         return(
-                                            <tr className='bg-[rgba(40,40,40,0.03)] w-full' key={item.recipe_id}>
-                                                 <td className='py-5'>{index + 1}</td>
+                                            <tr className='bg-[rgba(40,40,40,0.03)] w-full text-[rgba(40,40,40,0.7)] text-base font-normal' key={item.recipe_id}>
+                                                 <td className='py-5 pl-6'>{index + 1}</td>
                                                  <td className='py-5'>{item.recipe_name}</td>
                                                  <td className='py-5'>{item.preparing_time} min</td>
                                                  <td className='py-5'>{item.calories} calories</td>
@@ -100,9 +100,9 @@ const Main = () => {
                                 }
                             </table>
                         </div>
-                        <div>
-                        <h1>Total Time ={totalTime} min</h1>
-                        <h1>Total Calories = {totalCalorise} calories</h1>
+                        <div className='text-right pr-8 font-medium py-5 text-xl text-[rgba(40,40,40,0.8)]'>
+                            <h1>Total Time = {totalTime} min</h1>
+                            <h1>Total Calories = {totalCalorise} calories</h1>
                         </div>
                     </div>
                 </div>
