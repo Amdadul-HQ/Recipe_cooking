@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 const Recipe = ({recipe,handelWantToCook}) => {
     const {recipe_image,recipe_name,short_description,ingredients,preparing_time,calories,id} = recipe
     return (
-        <div className="p-6 rounded-2xl hover:-translate-y-1 transition border border-[rgba(40,40,40,0.2)] flex flex-col justify-between">
+        <div className="p-6 rounded-2xl border border-[rgba(40,40,40,0.2)] flex flex-col justify-between">
             <div>
                 <img className='w-full rounded-xl h-[200px] object-fill' src={recipe_image} alt="" />
             </div>
