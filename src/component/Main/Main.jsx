@@ -38,20 +38,20 @@ const Main = () => {
     } ,[])
 
     return (
-        <main className='max-w-[1320px] mx-auto'>
+        <main className='max-w-[1320px] mx-auto lg:px-0 px-5'>
             <section>
                 <div className='flex justify-center gap-y-6 text-center flex-col mb-12'>
                     <h1 className='text-4xl text-[rgb(21,11,43)] font-semibold'>Our Recipes</h1>
                     <p className='text-lg text-[rgba(21,11,43,0.6)] font-medium'>Browse our diverse collection of recipes.From quick meals to gourmet delights, 
                     find inspiration for every occasion.</p>
                 </div>
-                <div className='flex gap-x-6'>
-                    <div className='grid grid-cols-2 w-[60%] gap-6'>
+                <div className='flex lg:flex-row flex-col gap-y-6 gap-x-6'>
+                    <div className='grid lg:grid-cols-2 grid-cols-1 w-full lg:w-[60%] gap-6'>
                         {
                             recipes.map( recipe => <Recipe key={recipe.id} handelWantToCook={handelWantToCook} recipe ={recipe} ></Recipe> )
                         }
                     </div>
-                    <div className='w-[40%] border h-fit border-[rgba(40,40,40,0.2)] rounded-2xl'>
+                    <div className='lg:w-[40%] w-full border h-fit border-[rgba(40,40,40,0.2)] rounded-2xl'>
                         
                         <h1 className='text-2xl text-[rgb(40,40,40)] font-semibold text-center pt-8 pb-4'>Want to cook:{wantCook.length}</h1>
                         <hr  />

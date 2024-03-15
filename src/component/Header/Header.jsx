@@ -24,14 +24,14 @@ const Header = () => {
                 </div>
             </nav>
             <section>
-                <div className='bg-[url(../../../public/img/background_img.png)] w-full lg:h-[600px] space-y-6 bg-no-repeat bg-cover lg:rounded-none rounded-2xl flex flex-col justify-center items-center text-center'>
+                <div className='bg-[url(../../../public/img/background_img.png)] w-full lg:h-[600px] space-y-6 bg-no-repeat bg-cover bg-center lg:rounded-none rounded-2xl flex flex-col justify-center items-center text-center'>
                     <h1 className='lg:text-5xl text-2xl font-bold text-white'>Delicious Recipes: <br /> Explore Culinary Delights for Every Palate</h1>
                     <p className='text-white lg:text-lg font-normal'>Welcome to Flavor Haven: Where Culinary Magic Happens!Indulge in a Symphony of Tastes with Our Exquisite Recipes.
                         From Sizzling Stir-Fries to Decadent Desserts, We Have It All.Embark on a Journey of Culinary Excellence 
                         - <span className='text-[rgb(11,229,138)]'>Let Your Taste Buds Rejoice!</span></p>
                     <div className='lg:text-xl text-lg font-semibold flex gap-x-8 mt-4 lg:pb-0 pb-4 lg:mt-10'>
-                        <button className='text-[rgb(21,11,43)] bg-[rgb(11,229,138)] py-2 px-1 lg:py-5 lg:px-8 rounded-[50px]'>Explore Now</button>
-                        <button className='text-white lg:py-5 py-2 px-1 lg:px-8 bg-transparent border border-white rounded-[50px]'>Our Feedback</button>
+                        <button className='text-[rgb(21,11,43)] bg-[rgb(11,229,138)] py-2 px-4 lg:py-5 lg:px-8 rounded-[50px]'>Explore Now</button>
+                        <button className='text-white lg:py-5 py-2 px-4 lg:px-8 bg-transparent border border-white rounded-[50px]'>Our Feedback</button>
                     </div>
                 </div>
             </section>
