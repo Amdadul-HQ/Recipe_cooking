@@ -14,7 +14,7 @@ const Main = () => {
 
     const handelWantToCook = (recipe) => {
         if(wantCook.includes(recipe)){
-            return toast.warn('You cannot select a single recipe more than once')
+            return toast.warn("You can't select a single recipe more than once")
         }
         setWantCook([...wantCook,recipe])
     }
@@ -113,7 +113,7 @@ const Main = () => {
 };
 
 Main.propTypes = {
-    
+    recipe:PropTypes.object.isRequired
 };
 
 export default Main;

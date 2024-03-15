@@ -32,6 +32,7 @@ const Recipe = ({recipe,handelWantToCook}) => {
 
 Recipe.propTypes = {
     recipe:PropTypes.object.isRequired,
+    handelWantToCook:PropTypes.func.isRequired,
 };
 
 export default Recipe;
