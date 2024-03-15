@@ -6,7 +6,7 @@
       "ingredients": ["400g chicken breast", "1 head lettuce", "2 tomatoes"],
       "preparing_time": "20 min",
       "calories": "350 calories",
-      "recipe_image": "grilled_chicken_salad.jpg"
+      "recipe_image": "./img/Grilled-Chicken-Salad-Recipe-Square.jpg"
     },
     {
       "recipe_id": "2",
@@ -15,7 +15,7 @@
       "ingredients": ["200g tofu", "1 red bell pepper", "1 yellow bell pepper"],
       "preparing_time": "25 min",
       "calories": "250 calories",
-      "recipe_image": "vegetable_stir_fry.jpg"
+      "recipe_image": "./img/VegetableStirFry_9.jpg"
     },
     {
       "recipe_id": "3",
@@ -24,7 +24,7 @@
       "ingredients": ["300g spaghetti", "150g bacon", "3 eggs"],
       "preparing_time": "30 min",
       "calories": "450 calories",
-      "recipe_image": "spaghetti_carbonara.jpg"
+      "recipe_image": "./img/Spaghetti Carbonara.jpg"
     },
     {
       "recipe_id": "4",
@@ -33,7 +33,7 @@
       "ingredients": ["1 cup Arborio rice", "200g mushrooms", "1 onion"],
       "preparing_time": "35 min",
       "calories": "380 calories",
-      "recipe_image": "mushroom_risotto.jpg"
+      "recipe_image": "./img/Mushroom Risotto.jpg"
     },
     {
       "recipe_id": "5",
@@ -42,7 +42,7 @@
       "ingredients": ["4 salmon fillets", "1/4 cup honey", "3 cloves garlic"],
       "preparing_time": "25 min",
       "calories": "300 calories",
-      "recipe_image": "honey_garlic_salmon.jpg"
+      "recipe_image": "./img/Honey Garlic Salmon.jpg"
     },
     {
       "recipe_id": "6",
@@ -51,7 +51,7 @@
       "ingredients": ["1 cup quinoa", "2 cups water", "1 red bell pepper"],
       "preparing_time": "20 min",
       "calories": "320 calories",
-      "recipe_image": "quinoa_salad.jpg"
+      "recipe_image": "./img/Quinoa-Salad-0.jpg"
     }
   ]
   

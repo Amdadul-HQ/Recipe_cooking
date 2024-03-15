@@ -4,7 +4,7 @@ import { FaRegCircleUser } from "react-icons/fa6";
 
 const Header = () => {
     return (
-        <header className='max-w-[1320px] mx-auto'>
+        <header className='max-w-[1320px] mx-auto mb-28'>
             <nav className='flex justify-between items-center py-12'>
                 <h1 className='text-[rgb(21,11,43)] text-3xl font-bold cursor-pointer'>Recipe Cooking</h1>
                 <ul className='flex text-lg text-[rgba(21,11,43,0.7)] font-medium gap-x-12'>
