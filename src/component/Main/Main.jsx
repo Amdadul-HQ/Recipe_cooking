@@ -3,7 +3,6 @@ import 'react-toastify/dist/ReactToastify.css';
 import PropTypes from 'prop-types';
 import { useEffect, useState } from 'react';
 import Recipe from '../Recipe/Recipe';
-import Reviews from '../Reviews/Reviews';
 
 const Main = () => {
     const [recipes,setRecipes] = useState([]);
@@ -107,9 +106,6 @@ const Main = () => {
                         </div>
                     </div>
                 </div>
-            </section>
-            <section id='feedback'>
-                <Reviews></Reviews>
             </section>
             <ToastContainer></ToastContainer>
         </main>
