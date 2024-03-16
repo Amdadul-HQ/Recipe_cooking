@@ -32,7 +32,7 @@ const Header = () => {
                         - <span className='text-[rgb(11,229,138)]'>Let Your Taste Buds Rejoice!</span></p>
                     <div className='lg:text-xl text-lg font-semibold flex gap-x-8 mt-4 lg:pb-0 pb-4 lg:mt-10'>
                         <button className='text-[rgb(21,11,43)] hover:bg-[rgba(11,229,138,0.79)] transition-[500ms] bg-[rgb(11,229,138)] py-2 px-4 lg:py-5 lg:px-8 rounded-[50px]'>Explore Now</button>
-                        <button className='text-white hover:bg-[rgba(11,229,138,0.9)] hover:text-black transition-[500ms] lg:py-5 py-2 px-4 lg:px-8 bg-transparent border border-white rounded-[50px]'>Our Feedback</button>
+                        <button className='text-white hover:bg-[rgba(11,229,138,0.9)] hover:text-black transition-[500ms] lg:py-5 py-2 px-4 lg:px-8 bg-transparent border border-white rounded-[50px]'><a href="#feedback">Our Feedback</a></button>
                     </div>
                 </div>
             </section>

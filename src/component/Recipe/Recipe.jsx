@@ -7,7 +7,7 @@ const Recipe = ({recipe,handelWantToCook}) => {
     return (
         <div className="p-6 rounded-2xl border border-[rgba(40,40,40,0.2)] flex flex-col justify-between">
             <div>
-                <img className='w-full rounded-xl h-[200px] object-fill' src={recipe_image} alt="" />
+                <img className='w-full object-cover rounded-xl h-[200px]' src={recipe_image} alt="" />
             </div>
             <div className="mt-6">
             <h1 className="text-xl text-[rgb(40,40,40)] font-semibold">{recipe_name}</h1>
