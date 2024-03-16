@@ -1,0 +1,58 @@
+[
+    {
+      "id": 1,
+      "customer_name": "Alice Johnson",
+      "customer_img": "./img/Alice Johnson.jpg",
+      "reviews": "Absolutely loved the food here! The pasta was cooked to perfection and the ambiance was delightful. Will definitely be back!",
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "customer_name": "Mark Davis",
+      "customer_img": "./img/Mark Davis.jpg",
+      "reviews": "An exceptional dining experience! The service was impeccable and every dish burst with flavor. Highly recommended!",
+      "rating": 5
+    },
+    {
+      "id": 3,
+      "customer_name": "Sophia Clark",
+      "customer_img": "./img/Sophia Clark.jpg",
+      "reviews": "This place exceeded my expectations! The food quality was outstanding and the presentation was impressive. Can't wait to return!",
+      "rating": 5
+    },
+    {
+      "id": 4,
+      "customer_name": "Ryan Martinez",
+      "customer_img": "./img/Ryan Martinez.jpg",
+      "reviews": "A wonderful experience overall! The food was delicious, prices were reasonable, and the staff was very welcoming. I'll definitely be back for more.",
+      "rating": 5
+    },
+    {
+      "id": 5,
+      "customer_name": "Emma Wilson",
+      "customer_img": "./img/Emma Wilson.jpg",
+      "reviews": "Great food and lovely atmosphere! Although the portion sizes were smaller than expected, the taste made up for it. Overall, a delightful experience.",
+      "rating": 4.5
+    },
+    {
+      "id": 6,
+      "customer_name": "Noah Thompson",
+      "customer_img": "./img/Noah Thompson.jpg",
+      "reviews": "Enjoyed my meal here! The food was good, though the service was a tad slow. Nonetheless, I would still recommend this place.",
+      "rating": 4
+    },
+    {
+      "id": 7,
+      "customer_name": "Ava White",
+      "customer_img": "./img/Ava White.jpg",
+      "reviews": "Had a pleasant dining experience! While the food quality didn't quite live up to the hype, it was still enjoyable. Will consider revisiting.",
+      "rating": 4
+    },
+    {
+      "id": 8,
+      "customer_name": "Ethan Harris",
+      "customer_img": "./img/Ethan Harris.jpg",
+      "reviews": "Overall, a decent experience. The food was satisfactory, though the service could be improved. Might return in the future.",
+      "rating": 3.5
+    }
+  ]
